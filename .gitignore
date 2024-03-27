@@ -13,3 +13,15 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+# Go workspace file
+go.work
+makefile
+# other
+go.sum
+pprof*
+profile*
+./log
+/log
+.DS_Store
+logs
+.idea/
