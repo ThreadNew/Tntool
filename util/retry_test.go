@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	bizErr "github.com/ThreadNew/tntool/error"
 	"testing"
-	bizErr "tntool/error"
 )
 
 func TestRetry(t *testing.T) {
